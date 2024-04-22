@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{6cf00852-8331-43a4-a59c-3424dd1d1953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAL">
+      <UniqueIdentifier>{e3cf816f-5593-484f-997b-912548a2a856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{2311cb24-94e2-481b-9590-ed6c08a654b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{729cd2be-279c-4ca6-9982-84c7e1e4aa64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{ed05d9c9-a358-4413-917f-f2d3ac9fc921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{4bca0712-f299-46b8-9d75-7716be8d5cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\AdminViewDetails">
+      <UniqueIdentifier>{49541ae9-2e70-44df-89ef-b252bf6ce44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\UserViewDetails">
+      <UniqueIdentifier>{540b5ac7-7bb9-4ccb-9421-cbe8062dc6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\AdminControllerDetails">
+      <UniqueIdentifier>{ef96db16-5b54-4762-baf1-feeb4b512387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\UserControllerDetails">
+      <UniqueIdentifier>{05576fdf-173d-4eb7-9292-5ff94de7bf5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Booking.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Hotel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Tour.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminDAO.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDAO.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="UserController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UserView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="BookingDAO.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="HotelDAO.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonDAO.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="TourDAO.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleDAO.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminChangeInfoView.cpp">
+      <Filter>Views\AdminViewDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminChangeInfoController.cpp">
+      <Filter>Controllers\AdminControllerDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="UserChangeInfoView.cpp">
+      <Filter>Views\UserViewDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="UserChangeInfoController.cpp">
+      <Filter>Controllers\UserControllerDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="UserBookTourController.cpp">
+      <Filter>Controllers\UserControllerDetails</Filter>
+    </ClCompile>
+    <ClCompile Include="UserBookTourView.cpp">
+      <Filter>Views\UserViewDetails</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Booking.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Hotel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Tour.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="DBContext.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminDAO.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDAO.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="UserView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="BookingDAO.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="HotelDAO.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonDAO.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="TourDAO.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleDAO.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminChangeInfoView.h">
+      <Filter>Views\AdminViewDetails</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminChangeInfoController.h">
+      <Filter>Controllers\AdminControllerDetails</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="UserChangeInfoView.h">
+      <Filter>Views\UserViewDetails</Filter>
+    </ClInclude>
+    <ClInclude Include="UserChangeInfoController.h">
+      <Filter>Controllers\UserControllerDetails</Filter>
+    </ClInclude>
+    <ClInclude Include="UserBookTourController.h">
+      <Filter>Controllers\UserControllerDetails</Filter>
+    </ClInclude>
+    <ClInclude Include="UserBookTourView.h">
+      <Filter>Views\UserViewDetails</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TourBooking.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="User.json">
+      <Filter>Database</Filter>
+    </None>
+    <None Include="Tour.json">
+      <Filter>Database</Filter>
+    </None>
+    <None Include="Booking.json">
+      <Filter>Database</Filter>
+    </None>
+    <None Include="Hotel.json">
+      <Filter>Database</Filter>
+    </None>
+    <None Include="Vehicle.json">
+      <Filter>Database</Filter>
+    </None>
+  </ItemGroup>
+</Project>

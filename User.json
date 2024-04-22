@@ -1,0 +1,24 @@
+[
+    {
+        "address": "Dong Da, Ha Noi",
+        "displayName": "Admin Ngo Ba Hoang Quan",
+        "dob": "12/12/2002",
+        "email": "admin.ho@vietravel.com.vn",
+        "gender": "male",
+        "password": "Admin2002*#",
+        "phoneNumber": "0972846366",
+        "role": "administrator",
+        "username": "admin"
+    },
+    {
+        "address": "Dong Da, Ha Noi",
+        "displayName": "Le Vu Quynh Trang",
+        "dob": "19/04/2002",
+        "email": "tranglvq1@biplus.com.vn",
+        "gender": "female",
+        "password": "Letrang03@",
+        "phoneNumber": "0354712029",
+        "role": "user",
+        "username": "tranglvq"
+    }
+]
